@@ -20,9 +20,15 @@ body {
     justify-content: center;
 }
 
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+}
+
 .card {
     transform-style: preserve-3d;
-    min-height: 80vh;
+    min-height: 60vh;
     width: 30rem;
     border-radius: 30px;
     padding: 0 5rem;
@@ -91,7 +97,7 @@ button.active {
 }
 
 .purchase {
-    margin-top: 5rem;
+    margin: 2rem 0;
     transition: all 0.75s ease-out;
 }
 
